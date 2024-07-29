@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Orlando Furioso</title>
+				<author>Ludovico Ariosto</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Biblioteca Italiana</publisher>
+				<pubPlace>Roma</pubPlace>
+				<date>1928</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>I frammenti autografi dell'Orlando Furioso</title>
+					<author>Ariosto, Ludovico</author>
+					<editor id="ed">Debenedetti, Santorre</editor>
+					<publisher>Edizioni di storia e letteratura</publisher>
+					<pubPlace>Roma</pubPlace>
+					<date>[2010]</date>
+				</bibl>
+			</sourceDesc>
+			<textClass>
+				<keywords>
+					<term>Poesia</term>
+				</keywords>
+			</textClass>
+		</fileDesc>
+	</teiHeader>
+	<text>
+	    <encordingDesc>
+	        <editorialDecl>
+	            <head>Riproduzione fotografica della <hi rend="underline">carta 26r</hi>
+Fascicolo V, canto XXXVII, stanze 25-29</head>
+               
+            </editorialDecl>
+	    </encordingDesc>
+		<lg type="ottava">
+			<head>[25]</head>
+			<l>Stava Ruggier, com'io vi dissi, in atto</l>
+			<l>di partirsi, et avea commiato preso,</l>
+			<l>e dall'arbore il brando già ritratto,</l>
+			<l>che, come dianzi, non gli fu conteso;</l>
+			<l>quando un gran pianto, che non lungo tratto</l>
+			<l>era lontan, lo fe' restar sospeso;</l>
+			<l>e con le donne a quella via si mosse,</l>
+			<l>per aiutar, dove bisogno fosse.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[26]</head>
+			<l>Spingonsi inanzi, e via più chiaro il suon ne</l>
+			<l>viene, e via più son le parole intese.</l>
+			<l>Giunti ne la vallea, trovan tre donne</l>
+			<l>che fan quel duolo, assai strane in arnese;</l>
+			<l>che fin all'ombilico ha lor le gonne</l>
+			<l>scorciate non so chi poco cortese:</l>
+			<l>e per non saper meglio elle celarsi,</l>
+			<l>sedeano in terra, e non ardian levarsi.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[27]</head>
+			<l>Come quel figlio di Vulcan, che venne</l>
+			<l>fuor de la polve senza madre in vita,</l>
+			<l>e Pallade nutrir fe' con solenne</l>
+			<l>cura d'Aglauro, al veder troppo ardita,</l>
+			<l>sedendo, ascosi i brutti piedi tenne</l>
+			<l>su la quadriga da lui prima ordita;</l>
+			<l>così quelle tre giovani le cose</l>
+			<l>secrete lor tenean, sedendo, ascose.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[28]</head>
+			<l>Lo spettacolo enorme e disonesto</l>
+			<l>l'una e l'altra magnanima guerriera</l>
+			<l>fe' del color che nei giardin di Pesto</l>
+			<l>esser la rosa suol da primavera.</l>
+			<l>Riguardò Bradamante, e manifesto</l>
+			<l>tosto le fu ch'Ullania una d'esse era,</l>
+			<l>Ullania che da l'Isola Perduta</l>
+			<l>in Francia messaggiera era venuta:</l>
+		</lg>
+		<lg type="ottava">
+			<head>[29]</head>
+			<l>e riconobbe non men l'altre due;</l>
+			<l>che dove vide lei, vide esse ancora.</l>
+			<l>Ma se n'andaron le parole sue</l>
+			<l>a quella de le tre ch'ella più onora;</l>
+			<l>e le domanda chi sì iniquo fue,</l>
+			<l>e sì di legge e di costumi fuora,</l>
+			<l>che quei segreti agli occhi altrui riveli,</l>
+			<l>che, quanto può, par che Natura celi.</l>
+		</lg>
+		<encordingDesc>
+	        <editorialDecl>
+	            <head>Edizione diplomatico-interpretativa</head>
+                <p>Avendo già presentato la riproduzione fotografica della carta 26r, si è ritenuto
+					potesse apparire ridondante realizzare un’edizione “ermeticamente” diplomatica della
+					stessa. Trattandosi di un manoscritto risalente al XVI secolo, e comprendente come
+					tale una serie di abbreviazioni e una grafia oggi non più consuete, si è preferito
+					mediare tra la riproduzione fotografica e il testo critico attraverso un’edizione
+					diplomatico-interpretativa, in ottica di una fruibilità più trasversale. Si è quindi proceduto a “sciogliere” i segni di compendio della carta nelle rispettive forme estese:
+					➢ in luogo del titulus è riportata la «n»;
+					➢ a «ꝑ» corrisponde «per»;
+					➢ «cћ» è trascritto «che»;
+					➢ «ł», sempre minuscola e simile a una «L» capovolta, è resa a seconda dei casi
+					specifici: qłla → quella; qł → quel; dłla → della;
+					➢ la compresenza di «ſ» e «s» è stata uniformata all’uso corrente, trascrivendo
+					sempre «s».
+                </p>
+            </editorialDecl>
+	    </encordingDesc>
+	    <lg type="ottava">
+			<head>[25]</head>
+			<l>Stava Ruggier, com'io vi dissi, in atto</l>
+			<l>di partirsi, et avea commiato preso,</l>
+			<l>e dall'arbore il brando già ritratto,</l>
+			<l>che, come dianzi, non gli fu conteso;</l>
+			<l>quando un gran pianto, che non lungo tratto</l>
+			<l>era lontan, lo fe' restar sospeso;</l>
+			<l>e con le donne a quella via si mosse,</l>
+			<l>per aiutar, dove bisogno fosse.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[26]</head>
+			<l>Spingonsi inanzi, e via più chiaro il suon ne</l>
+			<l>viene, e via più son le parole intese.</l>
+			<l>Giunti ne la vallea, trovan tre donne</l>
+			<l>che fan quel duolo, assai strane in arnese;</l>
+			<l>che fin all'ombilico ha lor le gonne</l>
+			<l>scorciate non so chi poco cortese:</l>
+			<l>e per non saper meglio elle celarsi,</l>
+			<l>sedeano in terra, e non ardian levarsi.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[27]</head>
+			<l>Come quel figlio di Vulcan, che venne</l>
+			<l>fuor de la polve senza madre in vita,</l>
+			<l>e Pallade nutrir fe' con solenne</l>
+			<l>cura d'Aglauro, al veder troppo ardita,</l>
+			<l>sedendo, ascosi i brutti piedi tenne</l>
+			<l>su la quadriga da lui prima ordita;</l>
+			<l>così quelle tre giovani le cose</l>
+			<l>secrete lor tenean, sedendo, ascose.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[28]</head>
+			<l>Lo spettacolo enorme e disonesto</l>
+			<l>l'una e l'altra magnanima guerriera</l>
+			<l>fe' del color che nei giardin di Pesto</l>
+			<l>esser la rosa suol da primavera.</l>
+			<l>Riguardò Bradamante, e manifesto</l>
+			<l>tosto le fu ch'Ullania una d'esse era,</l>
+			<l>Ullania che da l'Isola Perduta</l>
+			<l>in Francia messaggiera era venuta:</l>
+		</lg>
+		<lg type="ottava">
+			<head>[29]</head>
+			<l>e riconobbe non men l'altre due;</l>
+			<l>che dove vide lei, vide esse ancora.</l>
+			<l>Ma se n'andaron le parole sue</l>
+			<l>a quella de le tre ch'ella più onora;</l>
+			<l>e le domanda chi sì iniquo fue,</l>
+			<l>e sì di legge e di costumi fuora,</l>
+			<l>che quei segreti agli occhi altrui riveli,</l>
+			<l>che, quanto può, par che Natura celi.</l>
+		</lg>
+	    <encordingDesc>
+	        <editorialDecl>
+	            <head>Edizione critica</head>
+                <p>È riprodotta a testo l’ultima lezione attestata dal manoscritto. Si è adottata una	trascrizione solo parcamente modernizzante della carta ariostesca: oltre agli						accorgimenti relativi ai segni di compendio già dichiarati, sono state distinte «u» e «v» ed è 						stata implementata la punteggiatura, rara ma pur presente, al fine di agevolare la 					lettura e comprensione del passo. Si è standardizzato per la medesima ragione 						l’utilizzo delle maiuscole a capoverso, dei nomi propri di persona e di luogo. Gli						unici due errori plausibili identificati nell’autografo sono stati emendati e			opportunamente segnalati in apparato, rendendone conto nelle note filologiche.					</p>
+                </editorialDecl>
+	    </encordingDesc>
+	    <lg type="ottava">
+			<head>[25]</head>
+			<l>Stava Ruggier, com'io vi dissi, in atto</l>
+			<l>di partirsi, et avea commiato preso,</l>
+			<l>e dall'arbore il brando già ritratto,</l>
+			<l>che, come dianzi, non gli fu conteso;</l>
+			<l>quando un gran pianto, che non lungo tratto</l>
+			<l>era lontan, lo fe' restar sospeso;</l>
+			<l>e con le donne a quella via lo mosse,</l>
+			<l>per aiutar, dove bisogno fosse.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[26]</head>
+			<l>Spingonsi inanzi, e via più chiaro il suon ne</l>
+			<l>viene, e via più son le parole intese.</l>
+			<l>Poi trovan, giunti in la vallea, trovan tre donne</l>
+			<l>che fan quel duolo, assai strane in arnese;</l>
+			<l>che fin all'ombilico ha lor le gonne</l>
+			<l>scorciate non so chi poco cortese:</l>
+			<l>e per non saper meglio elle celarsi,</l>
+			<l>sedeano in terra, e non ardian levarsi.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[27]</head>
+			<l>Come quel figlio di Vulcan, che venne</l>
+			<l>fuor de la polve senza madre in vita,</l>
+			<l>e Pallade nutrir fe' con solenne</l>
+			<l>cura d'Aglauro, al veder troppo ardita,</l>
+			<l>sedendo, ascosi i brutti piedi tenne</l>
+			<l>su la quadriga da lui prima ordita;</l>
+			<l>così quelle tre giovani le cose</l>
+			<l>secrete lor tenean, sedendo, ascose.</l>
+		</lg>
+		<lg type="ottava">
+			<head>[28]</head>
+			<l>Lo spettacolo enorme e disonesto</l>
+			<l>l'una e l'altra magnanima guerriera</l>
+			<l>fe' del color che nei giardin di Pesto</l>
+			<l>esser la rosa suol da primavera.</l>
+			<l>Riguardò Bradamante, e manifesto</l>
+			<l>tosto le fu ch'Ullania una d'esse era,</l>
+			<l>Ullania che da l'Isola Perduta</l>
+			<l>in Francia messaggiera era venuta:</l>
+		</lg>
+		<lg type="ottava">
+			<head>[29]</head>
+			<l>e riconobbe non men l'altre due;</l>
+			<l>che dove vide lei, vide esse ancora.</l>
+			<l>Ma se n'andaron le parole sue</l>
+			<l>a quella de le tre ch'ella più onora;</l>
+			<l>e le domanda chi sì iniquo fue,</l>
+			<l>si d'ogni legge e bei costumi fuora,</l>
+			<l>che quei segreti agli occhi altrui riveli,</l>
+			<l>che, quanto può, par che Natura celi.</l>
+		</lg>
+		 <encordingDesc>
+	        <editorialDecl>
+	            <head>Apparato critico</head>
+                <p>L’apparato è di tipo genetico, orizzontale e progressivo. Le stanze e i rispettivi versi sono indicati in grassetto tra parentesi quadre: alle prime segue un rientro del margine che accoglie la stratigrafia cronologicamente rappresentata delle varie lezioni, precedute dal verso di riferimento. Tutte le considerazioni riguardanti le scelte congetturali operate, nonché le ricostruzioni stratigrafiche più dettagliate all’occorrenza di campagne correttorie particolarmente complesse, sono approfondite di seguito, nelle note filologiche, e debitamente segnalate in apparato mediante il simbolo 🕮. 
+                </p>
+            </editorialDecl>
+	    </encordingDesc>
+	    <lg type="ottava">
+    	    <head>[25]</head>
+    	    <l>[2] combiato]</l>
+    	    <p>as. a congedo</p>
+    	</lg>
+    	<lg type="ottava">
+    	    <head>[26]</head>
+    	    <l>[7] E per non saper meglio elle celarsi]</l>
+    	    <p>1AElle che non potean meglio celarsi → 2BEt elle che non puon meglio celarsi (2BEt marg. sx) (2Bpuon sps. a1Apotean) 3CT (as. a 2B Et elle che non puon meglio celarsi) (3Cper da 3C -s-  🕮)
+    	    </p>
+    	    <l>[8] Sedeano] </l>
+    	    <p>1ASede-a-no → 2BSedeno (cass. 1A-a- ) → 3CT 🕮 ardian] 1Aardian 2Bosan (as. a 1Aardian) 3CT (sps. a 1Aardian) (cass. 2Bosan)
+    	    </p>
+    	    </lg>
+	</text>
+</TEI.2>

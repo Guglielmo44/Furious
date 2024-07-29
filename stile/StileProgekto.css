@@ -1,0 +1,713 @@
+body {
+background-color:#261a0d; /*marrone tendente al nero che fa un po' da cornice*/
+overflow-x: hidden;
+}
+
+.sfondo {
+  /*background*/
+   display: block;
+   background-image: url("F_1r.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   display: block;
+   height:113px;
+   margin: 11px;
+   z-index: 4;
+   }                                                  /*bisogna controllare che header e nav/list
+                                                        siano utilizzabili anche su telefono*/
+
+
+.header {
+  /*background*/
+   /*background-image: url("F_1r.jpg");*/
+   
+   background-color: #fff7e6;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   height: 113px; /*volume sezione*/
+   background: rgba(255, 247, 230, 0.3); /*opacity che non interessa il testo*/
+   margin-top: auto;
+   
+   
+   z-index: 4;
+
+    /*text*/
+   text-align: center;
+   vertical-align: middle;
+   color: #261a0d;
+   text-shadow: 1px 1px 1px white;
+   letter-spacing: 7px;
+   font-family: Copperplate, Papyrus, fantasy;
+   font-style: italic;
+   font-weight: bold;
+   line-height: 123px;
+   font-size: 70px;
+   /*z-index: 3;*/
+}
+
+.intro {    
+     /*posizione*/
+  background-color: #261a0d;
+  background-position: center;  
+  background-attachment: fixed;
+  display: block;
+  margin: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: 8vh;
+  overflow: auto;
+  position: sticky;
+  top: 0;             /*le 3 variabili che precedono rendono sticky l'header ma andrebbe modificato in modo da mantenere
+                        la scritta su due righe e affinché occupi tutto lo spazio orizzontale. E invece è bello su una*/ 
+  z-index: 4; /*per provare a non farlo scontrare con la vert.nav e txts*/
+
+  }
+                      
+.introtxt {
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #261a0d;
+  display: block;
+  margin: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  /*overflow: auto;*/
+  position: sticky;
+  top: 0;
+  z-index: 2; /*per provare a non farlo scontrare con la vert.nav*/
+        /*text*/
+   text-align: center;
+   line-height: 8vh;
+   color: #fff7e6;
+   text-shadow: 1px 1px 1px black;
+   letter-spacing: 9px;
+   word-spacing: 18px;
+   font-family: Copperplate, Papyrus, fantasy;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 23px;
+}
+
+.slideshow {
+    display: block;
+    margin: 11px;
+    min-height: 80vh;
+    /*background-attachment: fixed;*/
+    position: relative;
+    animation: fadeInFromRight 1s ease;
+    min-width: 800px;
+        
+}
+
+.image__container {
+    position: absolute;
+    display: block;
+    top: 0;
+    margin-left: 9.5%;
+    width: 90%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+   
+}
+
+/* Add a class to the visible image container */
+.image__container.active {
+    opacity: 1;
+
+}
+
+a.slidebtn:link {
+  text-decoration: none;
+  font-style: bold;
+  font-size: 33px;
+  font-family: Georgia, serif;
+  font-style: bold;
+  cursor: pointer;
+}
+
+a.slidebtn:visited {
+  color: #724e27;
+}
+
+a.slidebtn:hover {
+  font-size:105%;
+}
+
+a.slidebtn:active {
+  color: #724e27;
+}
+
+
+.slidetxt {
+
+  position: absolute;
+  width: 90%;
+  height: 50px;  /*gestisce l'altezza entro cui è la scritta. bisgona sost con height e centrarla*/
+  text-align: center;
+  background-color: #fff7e6; /*avorio*/
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  background: rgba(255, 247, 230, 0.7); 
+  letter-spacing: 4px;
+  font-family: Georgia, serif;
+  font-style: bold;
+  font-size: 33px;
+  word-spacing: 11px;
+  display: block;
+  text-decoration: none;
+  line-height: 50px;
+  bottom: 70px;
+  z-index:3;
+}
+
+
+.list {
+  list-style-type: none;
+  margin: 11px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-image: url("F_1r.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /*background-color: #fff7e6;*/
+  overflow: hidden;
+  position: sticky;
+  display: block;
+  float: right; /*fa sì che navbar e testo alla sua dx inizino alla stessa altezza*/
+  top: 70px; /*specifica a quanta distanza dalla cima si "stickizza"; da modificare se si vuole intro sticky*/
+  width: 23%;
+  min-height: 100vh;
+  z-index: 1; /*per provare a non farlo scontrare con l'intro*/
+  
+                /*a distanza dalla cima è possibile implementare la variabile height per ottenere un profilo più pulito*/ 
+}
+
+.catlist {
+
+  list-style-type: none;
+  margin: 11px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-image: url("F_1r.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /*background-color: #fff7e6;*/
+  /*overflow: auto;*/
+  position: sticky;
+  display: block;
+  float: right; /*fa sì che navbar e testo alla sua dx inizino alla stessa altezza*/
+  top: 139px; /*specifica a quanta distanza dalla cima si "stickizza"; da modificare se si vuole intro sticky*/
+  width: 23%;
+  min-height: 100vh;
+  z-index: 1; /*per provare a non farlo scontrare con l'intro*/
+  
+
+}
+
+
+.accordion {
+  cursor: pointer;
+  text-align: right;
+  transition: 0.5s;
+  background-color: rgba(255, 247, 230, 0.7);
+  letter-spacing: 4px;
+   font-family: Garamond, serif;
+   font-weight: bold;
+   font-size: 18px;
+   word-spacing: 6px;
+   display: block; /*unisce tutti i pulsanti della nav/list*/
+   color: #261a0d;
+   text-decoration: none;
+   line-height: 40px;
+   margin-right: 33px;
+   text-indent: 0px;
+   margin-top: 13px;
+   padding: 5px 10px ;
+}
+
+                                            /* Add a background color to the button if it is clicked on
+                                            (add the .attivo class with JS), and when you move the mouse over it (hover) */
+.attivo, .accordion:hover {
+  background-color: rgb(38, 26, 13, 0.7); 
+  color: #fff7e6;
+}
+
+.pagcorrente {
+
+  text-decoration: underline;
+  text-align: right;
+  line-height: 45px;
+  background-color: #261a0d; 
+  color: #fff7e6;
+
+}
+
+.listimage {
+  width:88%;
+  margin-top: 12px;
+}
+
+/*  a.txtlist:link {                 //classe creata senza ricordarsi che era l'accordion a comandare
+
+      letter-spacing: 4px;
+       height: 10px;
+       font-family: Garamond, serif;
+       font-style: bold;
+       font-size: 22px;
+       word-spacing: 11px;
+       display: block; questo era inattivo
+       text-decoration: none;
+       line-height: 50px;
+       left: 0;
+       margin-top: 11px;
+       text-align: right;
+     }
+*/
+
+
+
+/*.active {
+  background-color: #04AA6D;
+  color: white;
+}*/
+
+/*li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}*/
+
+.side { 
+  background-image: url("F_1r.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center; /*(le righe che precedono fanno sì che dietro si veda e scorra la carta 1r);*/
+  padding: 20px;                              
+  margin: 11px;
+  /*margin-top: 33px;*/
+  overflow: hidden;
+
+
+      /*text*/
+   /*text-align: center;*/
+   color: #261a0d;
+   text-shadow: 0px 0px 1px #fff7e6;
+   letter-spacing: 4px;
+   font-family: Garamond, serif;
+   font-weight: bold;
+   font-size: 25px;
+   word-spacing: 30px;
+
+}
+
+.txtside { 
+  background-color: #fff7e6;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 70% 70%;
+   padding: 22px; /*altezza sezione*/
+   background: rgba(255, 247, 230, 0.7); /*opacity che non interessa il testo*/                  
+  margin: 11px;
+  /*overflow: auto;*/
+  top: 0px;
+
+
+      /*text*/
+   text-align: justify;
+   text-justify: inter-word;
+   color: #261a0d;
+   text-shadow: 0px 0px 1px #fff7e6;
+   letter-spacing: 4px;
+   font-family: Garamond, serif;
+   font-weight: bold;
+   font-size: 28px;
+   word-spacing: 7px;
+
+}
+
+
+
+
+.presentacio, .footer {
+  background-color: rgb(255, 243, 230, 0.9);
+  margin: 11px;
+  display: block;
+  /*overflow: auto;*/
+  padding: 11px;
+  /*text*/
+   text-align: center;
+   color: #261a0d;
+   text-shadow: 0px 0px 1px #fff7e6;
+   letter-spacing: 3px;
+   font-family: Garamond, serif;
+   font-weight: bold;
+   font-size: 15px;
+   word-spacing: 15px;
+  /*z-index: 3;              TENTATIVO fallito di far sì che tutti i button della nav/list siano visibili anche giunti
+                              a fine pagina (footer)*/
+}
+
+/*.overflow {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}*/
+
+/*.header {
+	background-color:#ffff1a;
+	background-position: center; (per centrare l'immagine);
+	width: 100%;
+}*/
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.esplora, .attivo {
+  background-color:#ffff1a;
+  padding:5%;
+}
+
+/*azzurrino: e6fff5*/
+
+
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #e6fff5;
+  display: none;
+  /*overflow: hidden;   try */
+}
+
+
+
+/*giallo fluo: ffff1a*/
+
+.ordi{
+
+  margin-top: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Garamond, serif;
+  font-weight: bold;
+  
+  position: sticky;
+  display: block;
+     /*fa sì che navbar e testo alla sua dx inizino alla stessa altezza*/
+  float: left;
+  right: 11px;
+  padding: 11px 40px; /*90*/
+  min-height: 5vh;
+  font-size: 20px;
+  line-height: 5vh;
+  z-index: 2;
+  
+  color: #fff7e6;
+  top: 0px;
+}
+
+
+.ordinator {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 0px;
+  margin: 11px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Garamond, serif;
+  font-weight: bold;
+  font-style: italic;
+  background: rgba(255, 247, 230, 0.8);
+  position: sticky;
+  display: block;
+  color: #261a0d;
+   /*fa sì che navbar e testo alla sua dx inizino alla stessa altezza*/
+  float: left;
+  
+  padding: 11px; /*90*/
+  min-height: 5vh;
+  font-size: 23px;
+  line-height: 5vh;
+  z-index: 2; /*per provare a non farlo scontrare con l'intro*/
+  width: 22%;
+}
+
+.ordcorr {
+  text-decoration: underline;
+  font-size: 120%;
+
+
+}
+
+div.sticky {
+  position: sticky; /*aggiustare top in list*/
+  top: 73px;
+  margin: 11px;
+  padding: 1px 100px;
+  background-color: rgb(38, 26, 13);
+  /*border: 3px solid rgba(93, 64, 34, 0.3);*/
+  display: block;
+  min-height: 11px;
+  font-size: 20px;
+  line-height: 11px;
+  font-family: Garamond, serif;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2;
+
+}
+
+
+          /*SEGUONO PROVE CATALOGO*/
+
+.image-gallery {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      position: relative;
+      width: 42%;
+      margin: 22px;
+      border: 11px solid rgba(255, 247, 230, 0.6);
+      background-color: rgba(255, 247, 230, 0.6);
+      float: left;
+    }
+
+.image-gallery img {
+      width: 40%;
+      height: 40%;
+      margin: 11px;
+      border: 11px solid rgb(38, 26, 13, 0.9);
+}
+
+div.mstxt{
+  cursor: none;
+  margin: 21.5px;
+  margin-top: 25%;
+  position: absolute;
+  width: 40%;
+  height: 10%;  /*gestisce l'altezza entro cui è la scritta. bisgona sost con height e centrarla*/
+  text-align: center;
+  border: none;
+  outline: none;  
+}
+
+a.mstxt {
+  text-align: center;
+  background: rgb(38, 26, 13, 0.9); 
+  color: #fff7e6;
+  letter-spacing: 4px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 25px;
+  word-spacing: 11px;
+  display: block;
+  text-decoration: none;
+  line-height: 50px;
+  z-index:3;
+}
+
+a.mstxt:visited {
+  text-decoration: underline;
+}
+
+a.mstxt:hover {
+  font-size:105%;
+}
+
+a.mstxt:active {
+  color: #e68a00;
+}
+
+.descms{
+  margin: 21.5px;
+  top: -10.5px;
+  position: absolute;
+  width: 39%;
+  height: 80%;  /*gestisce l'altezza entro cui è la scritta. bisgona sost con height e centrarla*/
+  border: none;
+  outline: none; 
+  bottom: 20%;
+  float: left;
+  left: 46%;
+  background: rgb(38, 26, 13, 0.8);
+  display: block;
+  border: 11px solid rgb(38, 26, 13, 0.1);
+
+}
+
+div.desccont{
+
+  line-height: 50px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 25px;
+  color: #fff7e6;
+  width: 45%;
+  height: 70%;
+
+}
+
+br.correction{
+  line-height: 1px;
+}
+
+
+        /* SI POTREBBE PROVARE A FARE UN DROPDOWN MENU PER I TEMI CHIAVE*/
+.dropbtn {
+  background-color: rgb(38, 26, 13, 0.8);
+  color: #fff7e6;
+  letter-spacing: 4px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 100%;
+  height: 80px;
+  font-size: 17px;
+  border: 2px solid rgb(38, 26, 13, 0.9);
+  cursor: pointer;
+ }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 80px;
+ } 
+
+.dropdown-content {
+  display: none;
+ 
+  position: absolute;
+  background-color: rgba(255, 247, 230, 0.9);
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+}
+
+.dropdown-content a {
+  color: rgb(38, 26, 13);
+  border: 1px solid rgba(38, 26, 13, 0.2);
+  font-family: Georgia, serif;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(38, 26, 13, 0.9);
+  color: #fff7e6;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 100%;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(38, 26, 13);
+  text-decoration: underline;
+  width: 100%;
+}
+
+img.lacarta{
+  width:95%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 11px;
+  border: 5px solid rgba(255, 247, 230, 0.7);
+}
+
+
+.apparato { 
+  background-color: #fff7e6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70% 70%;
+  padding: 22px; /*altezza sezione*/
+  background: rgba(255, 247, 230, 0.9); /*opacity che non interessa il testo*/                  
+  margin: 11px;
+  overflow: hidden;
+  top: 0px;
+      /*text*/
+  text-align: justify;
+  text-justify: inter-word;
+  color: #261a0d;
+  text-shadow: 0px 0px 1px #fff7e6;
+  letter-spacing: 3px;
+  font-family: Garamond, serif;
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 28px;
+
+}
+
+.linkxml { 
+  background-color: #fff7e6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70% 70%;
+  padding: 10px; /*altezza sezione*/
+  background: #261a0d; /*opacity che non interessa il testo*/                  
+  margin: 11px;
+  overflow: hidden;
+  top: 0px;
+      /*text*/
+  text-align: right;
+  text-justify: inter-word;
+  color: rgba(255, 247, 230);
+  letter-spacing: 3px;
+  font-family: Garamond, serif;
+  font-size: 15px;
+  word-spacing: 5px;
+  line-height: 20px;
+
+}
+
+/*btn prev/next try*/
+.previous {
+  background-color: rgba(255, 247, 230);
+  color: rgb(38, 26, 13);
+  padding: 2px 10px;
+  left: 50%;
+  text-decoration: none;
+}
+
+.next {
+  background-color: rgb(38, 26, 13);
+  color: rgba(255, 247, 230);
+  padding: 2px 10px;
+  text-decoration: none;
+}
+
+
+

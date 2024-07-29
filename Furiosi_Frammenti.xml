@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+	<ordine_narrativo>
+		<ordinamento>
+			<carta_F26r>
+				<F26r_ed_fotografica>
+					<titolo>Riproduzione fotografica della carta F 26r</titolo>
+					<identificativo>F 1r</identificativo>
+					<autore>Ludovico Ariosto</autore>
+					<periodo>ante 1532</periodo>
+					<genere>epico-cavalleresco</genere>
+					<canto>XXXVII</canto>
+					<strofe>25-29</strofe>
+					<cartaceo>
+						<tipologia>manoscritto</tipologia>
+						<dimensioni>314x225 mm</dimensioni>
+						<fascicolo>V</fascicolo>
+						<luogo>Biblioteca Ariostea, Ferrara</luogo>
+					</cartaceo>
+					<digitalizzazione>
+						<dimensioni>2577x3543 px</dimensioni>
+						<crediti_digitalizzazione>Biblioteca Ariostea, Ferrara</crediti_digitalizzazione>
+					</digitalizzazione>
+				</F26r_ed_fotografica>
+				<F26r_ed_diplomatica>
+					<titolo>Edizione diplomatico-interpretativa della carta F 26r</titolo>
+					<autore>Guglielmo Amaducci</autore>
+					<formato>digitale</formato>
+					<data>
+						<mese>gennaio</mese>
+						<anno>2024</anno>
+					</data>
+				</F26r_ed_diplomatica>
+				<F26r_ed_critica>
+					<titolo>Edizione critica carta F 26r</titolo>
+					<trascrizione>parcamente modernizzante</trascrizione>
+					<autore>Guglielmo Amaducci</autore>
+					<formato>testo</formato>
+					<data>
+						<mese>gennaio</mese>
+						<anno>2024</anno>
+					</data>
+				</F26r_ed_critica>
+				<apparato>
+					<titolo>Apparato critico carta F 26r</titolo>
+					<tipo>genetico, orizzontale, progressivo</tipo>
+					<autore>Guglielmo Amaducci</autore>
+					<formato>testo</formato>
+					<data>
+						<mese>gennaio</mese>
+						<anno>2024</anno>
+					</data>
+				</apparato>
+				<F26_r_note_filologiche>
+					<titolo>Note filologiche carta F 26r</titolo>
+					<autore>Guglielmo Amaducci</autore>
+					<formato>testo</formato>
+					<data>
+						<mese>gennaio</mese>
+						<anno>2024</anno>
+					</data>
+				</F26_r_note_filologiche>
+				<confronto>
+					<titolo>Confronto fra l'ultima edizione a stampa (1532) e la carta F 26r</titolo>
+					<autore>Guglielmo Amaducci</autore>
+					<formato>digitale</formato>
+					<data>
+						<mese>gennaio</mese>
+						<anno>2024</anno>
+					</data>
+				</confronto>
+			</carta_F26r>
+		</ordinamento>
+	</ordine_narrativo>
+	<dislocazione_carte>
+		<ordinamento>luogo di conservazione</ordinamento>
+	</dislocazione_carte>
+	<fascicoli>
+		<ordinamento>numero di fascicolo</ordinamento>
+	</fascicoli>
+</catalogo>

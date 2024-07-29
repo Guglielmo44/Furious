@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<!-- questo è per commentare. i commenti precedono ciò che commmentano e non vengono visualizzati nella pagina prodotta-->
+	<head>
+		<title>Furiosi frammenti. Edizione digitale dei frammenti autografi dell'Orlando furioso</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Sito dedicato ai frammenti autografi dell'Orlando furioso" />
+		<meta name="keywords" content="Manoscritti, autografi, Ludovico Ariosto, Orlando furioso" />
+		<meta name="author" content="Guglielmo Amaducci Doe" />
+		<META NAME="DC.Title" CONTENT="Furiosi frammenti. Edizione digitale dei frammenti autografi dell'Orlando furioso">
+		<META NAME="DC.Creator.PersonalName" CONTENT="Amaducci, Guglielmo">
+		<META NAME="DC.Creator.PersonalName.Address" CONTENT="guglielmo.amaducci2@studenti.unibo.it">
+		<META NAME="DC.Subject" CONTENT="markup languages">
+		<META NAME="DC.Subject" CONTENT="edizione digitale">
+		<META NAME="DC.Subject" CONTENT="XML/TEI">
+		<META NAME="DC.Subject" SCHEME="BNCF" CONTENT="filologia d'autore">
+		<META NAME="DC.Subject" SCHEME="BNCF" CONTENT="letteratura del Cinquecento">
+		<META NAME="DC.Description" CONTENT="Edizione digitale dei frammenti autografi dell'Orlando furioso di Ludovico Ariosto">
+		<META NAME="DC.Publisher" CONTENT="Universita di Bologna">
+		<META NAME="DC.Date" SCHEME="ISO8601" CONTENT="2024-07-28">
+		<META NAME="DC.Type" CONTENT="Text.Manuscript">
+		<META NAME="DC.Format" SCHEME="IMT" CONTENT="text/html">
+		<META NAME="DC.Identifier" CONTENT="http://(URI)">
+		<META NAME="DC.Language" CONTENT="ita">
+		<META NAME="DC.Relation" CONTENT="Riferimento ad una risorsa correlata">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="stile/StileProgekto.css">
+	</head>
+
+	<body>
+		<!-- commenti -->
+		<header  class="sfondo">
+			<div id="top" class="header"> Furiosi Frammenti </div>
+		</header>
+
+		<div id="top" class= "intro"> 
+			  <h3 class="introtxt">I frammenti autografi dell'Orlando furioso</h3>
+		</div>
+				<div class="slideshow" style="min-width:auto;">
+	                <div class="mySlide image__container">
+	                    <img src="ludovicone.jpg" style="width:90%;" alt="Indoor">  
+	                    <div class="slidetxt">
+	                    	<a href="Ludovico.html" class="slidebtn"  style="color: #261a0d;">Ludovico Ariosto</a> 
+	                    </div>
+	                </div>
+	                <div class="mySlide image__container">
+	                    <img src="catalogue.jpg" style="width:90%;" alt="Indoor">  
+	                    <div class="slidetxt">
+	                    	<a href="Catalogo.html" class="slidebtn"  style="color: #261a0d;"> Catalogo </a> 
+	                    </div>
+	                </div>
+	                <div class="mySlide image__container">
+	                    <img src="italy.jpg" style="width:90%;" alt="Indoor">  
+	                    <div class="slidetxt">
+	                    	<a href="Dislocazione.html" class="slidebtn"  style="color: #261a0d;"> Dislocazione carte </a> 
+	                    </div>
+	                </div>
+	                <div class="mySlide image__container">
+	                    <img src="DORE.jpg" style="width:90%;" alt="Indoor">  
+	                    <div class="slidetxt">
+	                    	<a href="Approfondimenti.html" class="slidebtn"  style="color: #261a0d;"> Bibliografia</a> 
+	                    </div>
+	                </div>
+           		</div>
+		
+	<div>
+	   	
+		<ul class="list">
+				<br>
+				<li><a class="accordion pagcorrente" href="Furiosi_Frammenti"> Home </a></li>
+				
+				<li><a class="accordion" href="Ludovico.html"> Ludovico Ariosto </a></li>
+				
+				<li><a class="accordion" href="Catalogo.html"> Catalogo </a></li>
+				
+				<li><a class="accordion" href="Dislocazione.html"> Dislocazione carte </a></li>
+				
+				<li><a class="accordion" href="Approfondimenti.html"> Bibliografia </a></li>
+				
+		</ul>
+	
+		
+		<div class="side" style="margin-right:23%;height:1575px;"> 
+		  	<div class="apparato">
+		  		<h2 style="text-indent: 7%;">Contestualizzazione</h2>
+			  	<h3>I Frammenti autografi dell’Orlando Furioso rappresentano il più valido esemplare
+					certamente autografo a noi giunto dello scrittoio di Ludovico Ariosto. Composte a
+					partire dal giugno del 1525, queste 58 carte presentano una grande varietà, da abbozzi
+					a malecopie, sino a trascrizioni pseudo-definitive la cui precisa datazione risulta
+					ancora oggi complicata. Trattasi infatti di «pagine silenziose, di puro lavoro», prive
+					di indizi utili a collocarle più precisamente entro il termine ante quem fissato dalla
+					morte dell’autore, nel luglio del 1533. Erede degli autografi paterni fu il figlio
+					Virginio ed essi, per circa due secoli, rimangono complessivamente nella loro casa
+					d’origine, con poche eccezioni: un frammento, oggi perduto, sulla Rocca di Tristano;
+					un foglio e una carta giunti a Napoli nel 1641 tramite Lodovico Antinori, che li aveva
+					ricevuti dagli eredi di Ariosto, passati poi alla Biblioteca Nazionale ove furono legati
+					insieme; un foglio giunto all’Ambrosiana di Milano per lascito di Gilberto Borromeo,
+					venutone misteriosamente in possesso. Estintasi la dinastia ariostea, l’abate Giuseppe
+					de Carli ebbe il merito di riunire gran parte dei Frammenti, dei quali nel 1758 lasciò
+					erede la nascente Biblioteca di Ferrara. L’anno seguente anche l’ultimo fascicolo
+					entrò a far parte della Biblioteca per tramite del suo direttore, Giovanni Andrea
+					Barotti. I frammenti contengono tre dei quattro grandi episodi aggiunti nell’ultima
+					edizione del Furioso, utili tanto a introdurre temi cari all’Ariosto quanto a rendere la
+					follia di Orlando centrale non sono come tema, ma anche nella struttura del libro.
+					All’interno di tali giunte – riprodotte schematicamente correlate alle rispettive carte e
+					fascicoli, riprendendo l’analisi di Debenedetti – la carta in esame introduce l’impresa
+					di Ruggiero, Bradamante e Marfisa contro il tirannico Marganorre.</h3>
+				<br>
+		  	  	<h2 style="text-indent: 7%;">Obiettivi</h2>
+		  	  	<h3>Il presente sito si propone di raccogliere i manoscritti autografi dell'Orlando furioso, proponendone un'edizione critica digitale. Per rendere la visione delle carte ariostesche più facilmente fruibile anche ai meno esperti, si è suddiviso il catalogo in base all'ordine narrativo, alla dislocazione delle carte e ai fascicoli di appartenenza, garantendo una navigabilità e una possibilità di ricerca e appprofondiemtno più trasversale.</h3>
+		    </div>
+		
+	
+	</div> <!--chiude la side, in teoria-->
+
+	</div> <!--chiude la nav verticale, in teoria-->
+
+	   <div>
+		 	
+		 	<section class="footer">
+				<div><a href="#top" title="porta in alto, verso la luna" > <img src="ippoTOP.png" alt="sale inverso il ciel, l'ippogrifo" style="width:69px;height:69px;"></a></div>
+				<div>&clubs; Credits | Licenze &clubs; </div>
+			</section>
+			<footer>
+				<div class="footer">&copy; Guglielmo Amaducci 2024 - DHePC</div>
+			</footer>
+
+		</div>
+
+
+			<script> /*questa è la parte javascriptata, che è buona norma mettere alla fine dell'HTML, ma sempre dentro al /body*/
+			 var acc = document.getElementsByClassName("accordion");
+			 var i;
+
+				for (i = 0; i < acc.length; i++) {
+	  				acc[i].addEventListener("click", function() {
+	    			/* Toggle between adding and removing the "attivo" class, to highlight the button that controls the panel */
+	    				this.classList.toggle("attivo"); /* Toggle between hiding and showing the attivo panel */
+	    				var panel = this.nextElementSibling;
+	    				if (panel.style.display === "block") {
+	     		 			panel.style.display = "none";
+	   			 		} else {
+	     		 			panel.style.display = "block";
+	    				}
+  				});
+			} 
+
+			</script>
+			<script> 
+			// Get the container element
+				var btnContainer = document.getElementById("myDIV");
+
+				// Get all buttons with class="btn" inside the container
+				var btns = btnContainer.getElementsByClassName("btn");
+
+				// Loop through the buttons and add the attivo class to the current/clicked button
+				for (var i = 0; i < btns.length; i++) {
+				  btns[i].addEventListener("click", function() {
+				    var current = document.getElementsByClassName("attivo");
+				    current[0].className = current[0].className.replace(" attivo", "");
+				    this.className += " attivo";
+				  });
+				}
+			</script>
+
+
+			<script>
+					var slideIndex = 0;
+					var slides = document.getElementsByClassName("mySlides");
+
+					showSlides();
+
+					// Next/previous controls
+					function plusSlides(n) {
+						showSlides(slideIndex += n);
+					  var newslideIndex = slideIndex + n;
+					  if(newslideIndex < 4 && newslideIndex > 0){
+					     currentSlide(newslideIndex);
+					  }
+					}
+
+					// Thumbnail image controls
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+
+					function showSlides() {
+					    const slides = document.getElementsByClassName('image__container');
+
+					    // Hide all images
+					    for (let i = 0; i < slides.length; i++) {
+					        slides[i].classList.remove('active');
+					    }
+
+					    // Show current image
+					    slideIndex++;
+					    if (slideIndex > slides.length) {
+					        slideIndex = 1;
+					    }
+					    slides[slideIndex - 1].classList.add('active');
+
+					    // Repeat after 3 sec (3000ms)
+					    setTimeout(showSlides, 5000);
+					}
+
+					
+			</script>
+
+	</body>
+</html>
